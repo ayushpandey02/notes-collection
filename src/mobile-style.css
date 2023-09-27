@@ -2,6 +2,21 @@
   header .navbar-brand {
     padding-left: 1rem;
   }
+  .navbar {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar button {
+    float: right;
+  }
+
+  .navbar-brand img{
+    width: 60%;
+    text-align: center;
+  }
+
   .section-1 .row .col-md-6 .panel {
     position: initial;
     width: initial;
